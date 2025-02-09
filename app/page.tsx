@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Newproduct from "./components/Newproduct";
-import Slide from "./components/Slide";
+
 import Testimonials from "./components/Testimonials";
 
 
