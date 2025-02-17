@@ -89,7 +89,7 @@ const Men = () => {
 
       {/* Products Grid */}
       <div className="container pt-16">
-  <h2 className="font-medium text-2xl pb-4 text-center">Men's Fashion</h2>
+  <h2 className="font-medium text-2xl pb-4 text-center">Mens Fashion</h2>
   <div className="grid grid-cols-1 place-items-center sm:pace-item-start sm:grid-cols-3 lg:grid-col-4 xl:grid-cols-5 gap-10 xl:gap-x-20 xl:gap-y-10">
     {filterProducts().map((item, index) => (
       <Productcard

@@ -19,8 +19,8 @@ const Testimonials = () => {
             <h3 className="text-gray-700 font-semibold text-lg">Bilal Ebrahim</h3>
             <p className="text-gray-500">College Student</p>
             <p className="max-w-[200px] text-gray-500">
-            The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I &apos;s m heading to class or hanging out with friends.
-             Plus, it &apos;ss very affordable for a jacket this good. Great purchase.
+            The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends.
+             Plus, it is very affordable for a jacket this good. Great purchase.
             </p>
           </div>
         </div>
@@ -38,8 +38,8 @@ const Testimonials = () => {
             <h3 className="text-gray-700 font-semibold text-lg">John Doe</h3>
             <p className="text-gray-500">Fashion Blogger</p>
             <p className="max-w-[200px] text-gray-500">
-            The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I&apos;sm heading to class or hanging out with friends. 
-            Plus, it&apos;ss very affordable for a jacket this good. Great purchase!
+            The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends. 
+            Plus, it is very affordable for a jacket this good. Great purchase!
             </p>
           </div>
         </div>
@@ -57,9 +57,9 @@ const Testimonials = () => {
             <h3 className="text-gray-700 font-semibold text-lg">Jane Smith</h3>
             <p className="text-gray-500">Stylish Professional</p>
             <p className="max-w-[200px] text-gray-500">
-            I&apos;sve been looking for a versatile jacket, and I finally found it! This casual bomber jacket is stylish and goes with almost everything. 
+            I have been looking for a versatile jacket, and I finally found it! This casual bomber jacket is stylish and goes with almost everything. 
             The quality is amazing too.
-             Can&apos;st wait to order another one.
+             Can not wait to order another one.
             </p>
           </div>
         </div>

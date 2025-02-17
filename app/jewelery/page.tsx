@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Productcard from '../components/Productcard';
-import Link from 'next/link';
+
 import Jewelerycoll from '../components/jewelerycoll';
 import Footerforall from '../components/Footerforall';
 
