@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineAppstore, AiOutlineHome } from 'react-icons/ai'
-import { HiOutlineShoppingBag } from 'react-icons/hi'
+import { HiOutlineHeart, HiOutlineShoppingBag } from 'react-icons/hi'
 import { IoMenuOutline } from 'react-icons/io5'
 
 const Mobnavbar = () => {
@@ -16,6 +16,7 @@ const Mobnavbar = () => {
             </div>
             <AiOutlineHome/>
             <div className="relative">
+            <HiOutlineHeart/>
             <div className="bg-red-600 rounded-full absolute top-0 right-0 w-[18px] h-[18px] text-[12px] text-white grid place-items-center translate-x-1 -translate-y-1">
                     0
                 </div>

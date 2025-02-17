@@ -7,11 +7,22 @@
 @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
   }
 
-  .navbar__link:hover{
+  .navbar__link:hover {
     color:#ff8f9c;
     transition:all 0.4s;
 
   }
+
+  .active{
+    color:#ff8f9c;
+  }
+
+  .navbar__link.active {
+    color: #ff6347; /* Active link color (red for example) */
+    font-weight: bold; /* Bold text for active link */
+
+  }
+
   .navbar__link::after{
     position:absolute;
     content:"";
