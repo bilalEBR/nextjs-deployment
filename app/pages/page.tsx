@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Footerforall from '../components/Footerforall';
 
 type Category = {
@@ -46,13 +46,13 @@ const page = () => {
               className="relative group bg-white shadow-md rounded-lg overflow-hidden"
             >
               {/* Updated: Directly wrap the img tag with Link */}
-              <Link href={category.link}>
+             
                 <img
                   src={category.imageUrl}
                   alt={category.name}
                   className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-              </Link>
+            
 
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
               <div className="absolute bottom-4 left-4 text-white font-semibold text-lg z-10">

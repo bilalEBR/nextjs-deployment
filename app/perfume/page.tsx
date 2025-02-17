@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link'
-import React, { useState } from 'react'
+
 import Productcard from '../components/Productcard';
 import Footerforall from '../components/Footerforall';
 

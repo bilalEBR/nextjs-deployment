@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Productcard from '../components/Productcard';
-import Menscoll from '../components/menscoll';
+
 import Womenscoll from '../components/womenscoll';
 import Footerforall from '../components/Footerforall';
 
