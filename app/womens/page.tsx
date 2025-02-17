@@ -92,7 +92,7 @@ const Women = () => {
 
       {/* Products Grid */}
       <div className="container pt-16">
-        <h2 className="font-medium text-2xl pb-4 text-center ">Women's Fashion</h2>
+        <h2 className="font-medium text-2xl pb-4 text-center ">Womens Fashion</h2>
         <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-x-20 xl:gap-y-10">
           {filterProducts().map((item, index) => (
             <Productcard

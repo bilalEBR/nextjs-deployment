@@ -1,5 +1,5 @@
 import React from 'react';
-// import Link from 'next/link';
+
 import Footerforall from '../components/Footerforall';
 
 type Category = {
