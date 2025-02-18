@@ -49,7 +49,7 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <p className="text-sm">
-          Copyright © <span className="font-semibold">LOgo</span> | All Rights Reserved 2025
+          Copyright © <span className="font-semibold">Logo</span> | All Rights Reserved 2025 Developed by: Bilal
         </p>
       </div>
     </div>
