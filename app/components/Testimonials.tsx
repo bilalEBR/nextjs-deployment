@@ -9,6 +9,7 @@ const Testimonials = () => {
       {/* Scrollable Container */}
       <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
         <div className="flex space-x-8 pb-6">
+
           {/* Testimonial 1 */}
           <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
             <div className="text-center flex flex-col items-center gap-4">
@@ -28,17 +29,18 @@ const Testimonials = () => {
             </div>
           </div>
 
- {/* Testimonial 1 */}
- <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
+
+           {/* Testimonial 2 */}
+           <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
             <div className="text-center flex flex-col items-center gap-4">
               <Image
                 className="rounded-full"
-                src="/profile5.jpg"
+                src="/gebre.jpg"
                 width={100}
                 height={100}
                 alt="Bilal Ebrahim"
               />
-              <h3 className="text-gray-700 font-semibold text-lg">Reyan ahmed</h3>
+              <h3 className="text-gray-700 font-semibold text-lg">Gebremeskel molla</h3>
               <p className="text-gray-500">College Student</p>
               <p className="max-w-[200px] text-gray-500">
                 The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends.
@@ -47,17 +49,55 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Testimonial 2 */}
+           {/* Testimonial 3 */}
+           <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
+            <div className="text-center flex flex-col items-center gap-4">
+              <Image
+                className="rounded-full"
+                src="/ahmed.jpg"
+                width={100}
+                height={100}
+                alt="Bilal Ebrahim"
+              />
+              <h3 className="text-gray-700 font-semibold text-lg">Ahmed jemal</h3>
+              <p className="text-gray-500">College Student</p>
+              <p className="max-w-[200px] text-gray-500">
+                The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends.
+                Plus, it is very affordable for a jacket this good. Great purchase.
+              </p>
+            </div>
+          </div>
+
+ {/* Testimonial 4 */}
+ <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
+            <div className="text-center flex flex-col items-center gap-4">
+              <Image
+                className="rounded-full"
+                src="/daneil.jpg"
+                width={100}
+                height={100}
+                alt="Bilal Ebrahim"
+              />
+              <h3 className="text-gray-700 font-semibold text-lg">Daneil wasihun</h3>
+              <p className="text-gray-500">College Student</p>
+              <p className="max-w-[200px] text-gray-500">
+                The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends.
+                Plus, it is very affordable for a jacket this good. Great purchase.
+              </p>
+            </div>
+          </div>
+
+          {/* Testimonial 5 */}
           <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
             <div className="text-center flex flex-col items-center gap-4">
               <Image
                 className="rounded-full"
-                src="/profile2.jpg"
+                src="/dawit.jpg"
                 width={100}
                 height={100}
                 alt="John Doe"
               />
-              <h3 className="text-gray-700 font-semibold text-lg">John Doe</h3>
+              <h3 className="text-gray-700 font-semibold text-lg">Dawit endashaw</h3>
               <p className="text-gray-500">Fashion Blogger</p>
               <p className="max-w-[200px] text-gray-500">
                 The fleece zip jacket I bought is incredibly cozy. I wear it all the time, whether I am heading to class or hanging out with friends.
@@ -66,7 +106,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Testimonial 3 */}
+          {/* Testimonial 6 */}
           <div className="border border-gray-300 min-w-[250px] sm:min-w-[300px] md:min-w-[350px] rounded-2xl p-6 bg-white shadow-md">
             <div className="text-center flex flex-col items-center gap-4">
               <Image
