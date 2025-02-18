@@ -5,7 +5,7 @@ import { IoMenuOutline } from 'react-icons/io5'
 
 const Mobnavbar = () => {
   return (
-    <div className='lg:hidden fixed bottom-0 w-full bg-white left-[50%] -translate-x-[50%] max-w-[500px] mob_navbar px-8'>
+    <div className='hidden md:hidden sm:hidden xl:hidden  fixed bottom-0 w-full bg-white left-[50%] -translate-x-[50%] max-w-[500px] mob_navbar px-8'>
         <div className="flex justify-between text-[28px] py-2">
             <IoMenuOutline/>
             <div className="relative">

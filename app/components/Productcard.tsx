@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/image'; 
 import React from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
@@ -71,11 +71,11 @@ const Productcard: React.FC<propsType> = ({ img, title, desc, rating, price }) =
   };
 
   return (
-    <div className='px-4 border border-gray-200 rounded-xl max-w-[400px]'>
-      <div>
+    <div className="px-4 border border-gray-200 rounded-xl max-w-[400px] flex flex-col h-full">
+      <div className="h-56">
         {/* Apply fixed width and height for consistent image size */}
         <Image 
-          className="w-full h-56 object-cover rounded-lg"  // Fixed height with object-cover for consistent images
+          className="w-full h-full object-cover rounded-lg"  // Fixed height with object-cover for consistent images
           src={img} 
           width={500} 
           height={300} 
@@ -83,7 +83,7 @@ const Productcard: React.FC<propsType> = ({ img, title, desc, rating, price }) =
         />
       </div>
       
-      <div className="space-y-2 py-2">
+      <div className="space-y-2 py-2 flex-grow">
         <h2 className='text-accent font-medium uppercase'>{title}</h2>
         <p className='text-gray-500 max-w-[150px]'>{desc}</p>
         <div>
@@ -92,10 +92,15 @@ const Productcard: React.FC<propsType> = ({ img, title, desc, rating, price }) =
         <div className="font-bold flex gap-4">
           ${price} 
           <del className='text-gray-500 font-normal'>
-  ${typeof price === 'string' ? price : `${price + 50}.00`}
-</del>
+            ${typeof price === 'string' ? price : `${price + 50}.00`}
+          </del>
         </div>
       </div>
+
+      {/* Buy Now Button */}
+      <button className="bg-indigo-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-indigo-700 transition-all focus:outline-none mx-4 mb-4">
+        Buy Now
+      </button>
     </div>
   );
 };

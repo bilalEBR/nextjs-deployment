@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myImage from '../images/oifu.jpg'
+import myImage from './logos.jpg'
 import React from 'react'
 import { BiUser } from 'react-icons/bi'
 import { BsSearch } from 'react-icons/bs'
@@ -14,7 +14,7 @@ const Headermain = () => {
         <div className=" text-center pb-4 sm:pb-0 text-blackish">
 
         <Image
-        src={myImage} // Path to your image (relative to public folder)
+        src='/logos2.jpg' // Path to your image (relative to public folder)
         alt="Description of image"
         width={200}  // Set the width
         height={100} // Set the height

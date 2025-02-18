@@ -48,22 +48,24 @@ const Newproduct = () => {
     },
 ];
 
-    
   return (
     <div>
       <div className='container pt-16'>
-        <h2 className='font-medium text-2xl pb-4  text-center'>New products</h2>
+        <h2 className='font-medium text-2xl pb-4 text-center'>New products</h2>
 
-        <div className="grid grid-cols-1 place-items-center sm:pace-item-start sm:grid-cols-3 lg:grid-col-4 xl:grid-cols-5 gap-10 xl:gap-x-20 xl:gap-y-10"> 
-          {productData.map((item,index) => (<Productcard
-          key={index}
-          img={item.img}
-          title={item.title}
-          desc={item.desc}
-          rating={item.rating}
-          price={item.price}
-          />
-        ) )}
+        <div className="grid grid-cols-1 place-items-center sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-10 xl:gap-x-20 xl:gap-y-10"> 
+          {productData.map((item, index) => (
+            <div key={index} className="relative flex flex-col justify-between h-full">
+              <Productcard
+                img={item.img}
+                title={item.title}
+                desc={item.desc}
+                rating={item.rating}
+                price={item.price}
+              />
+             
+            </div>
+          ))}
         </div>
       </div>
     </div>

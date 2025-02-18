@@ -23,8 +23,8 @@ const Navbar = () => {
         <Link className={`navbar__link relative ${isActive('/womens')}`} href="/womens">WOMEN</Link>
         <Link className={`navbar__link relative ${isActive('/jewelery')}`} href="/jewelery">JEWELERY</Link>
         <Link className={`navbar__link relative ${isActive('/perfume')}`} href="/perfume">PERFUME</Link>
-        <Link className={`navbar__link relative ${isActive('/blog')}`} href="#">BLOG</Link>
-        <Link className={`navbar__link relative ${isActive('/hot-offers')}`} href="#">HOT OFFERS</Link>
+        <Link className={`navbar__link relative ${isActive('/blog')}`} href="blog">BLOG</Link>
+        <Link className={`navbar__link relative ${isActive('/hotoffer')}`} href="hotoffer">HOT OFFERS</Link>
       </div>
     </div>
   )
