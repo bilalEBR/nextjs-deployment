@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myImage from './logos.jpg'
+
 import React from 'react'
 import { BiUser } from 'react-icons/bi'
 import { BsSearch } from 'react-icons/bs'
